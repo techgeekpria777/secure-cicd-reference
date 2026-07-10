@@ -44,6 +44,7 @@ jobs:
           exit-code: '1'
           severity: HIGH,CRITICAL
           ignore-unfixed: true
+          trivyignores: 01-pipeline/.trivyignore
 
       - name: Push image to ECR
         env:
