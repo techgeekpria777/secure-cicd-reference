@@ -1,0 +1,6 @@
+console.txt
+trust-policy.json
+ecr-policy.json
+venv/
+__pycache__/
+*.pyc
